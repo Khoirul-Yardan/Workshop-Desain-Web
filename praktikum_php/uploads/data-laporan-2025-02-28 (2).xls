@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penjualan dan Keuangan</title>
+</head>
+<body>
+    <!-- Laporan Penjualan -->
+    <h3 style="text-align:center;"> 
+                    Data Laporan Penjualan Februari 2025            </h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>No</th>
+                <th>ID Barang</th>
+                <th>Nama Barang</th>
+                <th style="width:10%;">Jumlah</th>
+                <th style="width:10%;">Modal</th>
+                <th style="width:10%;">Total</th>
+                <th>Kasir</th>
+                <th>Tanggal Input</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td>1</td>
+                <td>BR001</td>
+                <td>pensil biru</td>
+                <td>1 </td>
+                <td>Rp.10,000,-</td>
+                <td>Rp.12,000,-</td>
+                <td>AKBAR sparepart</td>
+                <td>28 February 2025, 8:15</td>
+            </tr>
+                        <tr>
+                <td>2</td>
+                <td>BR001</td>
+                <td>pensil biru</td>
+                <td>1 </td>
+                <td>Rp.10,000,-</td>
+                <td>Rp.12,000,-</td>
+                <td>AKBAR sparepart</td>
+                <td>27 February 2025, 19:43</td>
+            </tr>
+                        <tr>
+                <td>-</td>
+                <td>-</td>
+                <td><b>Total Terjual</b></td>
+                <td><b>2</b></td>
+                <td><b>Rp.20,000,-</b></td>
+                <td><b>Rp.24,000,-</b></td>
+                <td><b>Keuntungan</b></td>
+                <td><b>Rp.4,000,-</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Laporan Keuangan -->
+    <h3 style="text-align:center;">Laporan Keuangan February 2025</h3>
+    
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>No</th>
+                <th>ID Barang</th>
+                <th>Nama Barang</th>
+                <th>Stok Terjual</th>
+                <th>Harga Jual</th>
+                <th>Total Penjualan</th>
+                <th>Harga Beli</th>
+                <th>Modal Awal</th>
+                <th>Stok Gudang</th>
+                <th>Satuan Barang</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td>1</td>
+                <td>BR001</td>
+                <td>pensil biru</td>
+                <td>3</td>
+                <td>Rp.12,000,-</td>
+                <td>Rp.36,000,-</td>
+                <td>Rp.10,000,-</td>
+                <td>Rp.100,000,-</td>
+                <td>7</td>
+                <td>PCS</td>
+            </tr>
+                    </tbody>
+    </table>
+
+    <h3 style="text-align:center;">Ringkasan Laporan Keuangan</h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <tr>
+            <td><b>Total Penjualan</b></td>
+            <td>Rp.36,000,-</td>
+        </tr>
+        <tr>
+            <td><b>Modal Awal</b></td>
+            <td>Rp.100,000,-</td>
+        </tr>
+        <tr>
+            <td><b>Keuntungan Kotor</b></td>
+            <td>Rp.-64,000,-</td>
+        </tr>
+        <tr>
+            <td><b>Biaya Operasional</b></td>
+            <td>Rp.500,000,-</td>
+        </tr>
+        <tr>
+            <td><b>Laba Bersih</b></td>
+            <td>Rp.-564,000,-</td>
+        </tr>
+    </table>
+
+    <!-- Tabel Keuntungan Asli -->
+    <h3 style="text-align:center;">Keuntungan Asli</h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>Deskripsi</th>
+                <th>Jumlah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Total Pendapatan</td>
+                <td>Rp.36,000,-</td>
+            </tr>
+            <tr>
+                <td>Total Modal</td>
+                <td>Rp.100,000,-</td>
+            </tr>
+            <tr>
+                <td>Biaya Operasional</td>
+                <td>Rp.500,000,-</td>
+            </tr>
+            <tr>
+                <td><b>Keuntungan Bersih</b></td>
+                <td><b>Rp.-564,000,-</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Laporan Arus Kas -->
+    <h3 style="text-align:center;">Laporan Arus Kas</h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>No</th>
+                <th>Deskripsi</th>
+                <th>Kas Masuk</th>
+                <th>Kas Keluar</th>
+                <th>Saldo Akhir</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td>1</td>
+                <td>Kas dari Penjualan</td>
+                <td>Rp.36,000,-</td>
+                <td>-</td>
+                <td rowspan="2">Rp.-564,000,-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kas Keluar (Modal + Biaya Operasional)</td>
+                <td>-</td>
+                <td>Rp.600,000,-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Laporan Persediaan -->
+    <h3 style="text-align:center;">Laporan Persediaan</h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>No</th>
+                <th>ID Barang</th>
+                <th>Nama Barang</th>
+                <th>Stok Awal</th>
+                <th>Stok Masuk</th>
+                <th>Stok Keluar</th>
+                <th>Stok Akhir</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td>1</td>
+                <td>BR001</td>
+                <td>pensil biru</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+                    </tbody>
+    </table>
+
+    <!-- Neraca Keuangan -->
+    <h3 style="text-align:center;">Neraca Keuangan</h3>
+    <table border="1" width="100%" cellpadding="3" cellspacing="4">
+        <tr>
+            <th>Aset</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Kas</td>
+            <td>Rp.-564,000,-</td>
+        </tr>
+        <tr>
+            <td>Stok Gudang</td>
+            <td>7 unit</td>
+        </tr>
+        <tr>
+            <td><b>Total Aset</b></td>
+            <td>Rp.-494,000,-</td>
+        </tr>
+    </table>
+</body>
+</html>
