@@ -184,6 +184,11 @@
                 echo "<p><strong>Agama:</strong> " . htmlspecialchars($_POST['agama']) . "</p>";
                 echo "<p><strong>Tempat/Tanggal Lahir:</strong> " . htmlspecialchars($_POST['ttl']) . "</p>";
                 echo "<p><strong>Alamat:</strong> " . nl2br(htmlspecialchars($_POST['alamat'])) . "</p>";
+                echo "<p><strong>SD:</strong> " . htmlspecialchars($_POST['sd']) . "</p>";
+                echo "<p><strong>SMP:</strong> " . htmlspecialchars($_POST['smp']) . "</p>";
+                echo "<p><strong>SMA:</strong> " . htmlspecialchars($_POST['sma']) . "</p>";
+                echo "<p><strong>Email:</strong> " . htmlspecialchars($_POST['email']) . "</p>";
+                echo "<p><strong>Homepage:</strong> " . htmlspecialchars($_POST['homepage']) . "</p>";
                 echo "<p><strong>Hobby:</strong> " . nl2br(htmlspecialchars($_POST['hobby'])) . "</p>";
                 if (!empty($_POST['interest'])) {
                     echo "<p><strong>Interest:</strong> " . implode(", ", $_POST['interest']) . "</p>";
