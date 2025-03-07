@@ -16,6 +16,7 @@
                 <li><a href="index.php?page=about">About</a></li>
                 <li><a href="index.php?page=contact">Contact</a></li>
                 <li><a href="index.php?page=daftar">Dafar Tugas</a></li>
+                <li><a href="index.php?page=tabel">Praktikum</a></li>
             </ul>
         </nav>
     </header>
@@ -35,6 +36,9 @@
                     break;
                 case 'daftar';
                     include "daftar.php";
+                    break;
+                case 'tabel';
+                    include "pertemuan3/form_insert.php";
                     break;
             }
         } else {
