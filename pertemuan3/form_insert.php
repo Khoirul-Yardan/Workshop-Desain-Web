@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus_id'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CRUD Mahasiswa</title>
+    <title>Mahasiswa</title>
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
@@ -143,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus_id'])) {
 </head>
 <body>
 <header>
-    <h1 class="title">CRUD Data Mahasiswa</h1>
+    <h1 class="title">Data Mahasiswa</h1>
 </header>
 <div class="container">
     <h3 class="desc">Form Tambah Data Mahasiswa</h3>
