@@ -17,6 +17,7 @@
                 <li><a href="index.php?page=contact">Contact</a></li>
                 <li><a href="index.php?page=daftar">Dafar Tugas</a></li>
                 <li><a href="index.php?page=tabel">Praktikum</a></li>
+                 <li><a href="pertemuan5/index.php">Login</a></li>
             </ul>
         </nav>
     </header>

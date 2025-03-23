@@ -5,7 +5,6 @@ require 'vendor/autoload.php';  // Autoload Composer dependencies
 $client = new MongoDB\Client("mongodb://127.0.0.1:27017");  // Ganti dengan connection string yang sesuai
 $database = $client->mahasiswa;  // Nama database 'mahasiswa'
 $collection = $database->users;  // Nama collection 'users'
-
 // Menyisipkan data jika form disubmit
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Ambil data dari form
